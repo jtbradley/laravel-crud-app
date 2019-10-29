@@ -1,36 +1,36 @@
 <h1>Simple Laravel app with CRUD operations, authentication & access control, and file uploading</h1>
 
-<p>This is a super simple CRUD app that I made as a starter for other projects. It has a blog-like interface with authentication, access control, image uploads.</p>
+<p>This is a super simple CRUD app I use as a starter for my other projects. It has a blog-like interface with authentication, access control, image uploads.</p>
 
 <p>It has barebones but highly extensible functionality.</p>
 
 <h2>Setup:</h2>
-<ul>
-    <ol><h3>Clone Repo</h3>
+<ol>
+    <li><h3>Clone Repo</h3>
         <code>git clone https://github.com/jtbradley/laravel-crud-app.git</code>
-    </ol>
-    <ol><h3>Install PHP dependencies</h3>
+    </li>
+    <li><h3>Install PHP dependencies</h3>
         <code>composer install</code>
-    </ol>
-    <ol><h3>Install JS dependencies</h3>
-        <code>npm install</code></ol>
-    <ol><h3>Create .env file by copying .env.example</h3>
-        <code>cp .env.example .env</code></ol>
-    <ol><h3>Generate an app encryption key. It will appear in .env as APP_KEY</h3>
+    </li>
+    <li><h3>Install JS dependencies</h3>
+        <code>npm install</code></li>
+    <li><h3>Create .env file by copying .env.example</h3>
+        <code>cp .env.example .env</code></li>
+    <li><h3>Generate an app encryption key. It will appear in .env as APP_KEY</h3>
         <code>php artisan key:generate</code>
-    </ol>
-    <ol><h3>Create an empty SQL database</h3>
-    </ol>
-    <ol><h3>Add database information in the application .env file</h3>
+    </li>
+    <li><h3>Create an empty SQL database</h3>
+    </li>
+    <li><h3>Add database information in the application .env file</h3>
     <p>(make sure db name, credentials, and port are correct- check your server configuration docs if any issues)</p>
-    </ol>
-    <ol><h3>Migrate the databse</h3>
+    </li>
+    <li><h3>Migrate the databse</h3>
         <code>php artisan migrate</code>
-    </ol>
-    <ol><h3>Create a symlink to make assets in /storage accessible in /public</h3>
+    </li>
+    <li><h3>Create a symlink to make assets in /storage accessible in /public</h3>
         <code>php artisan storage:link</code>
-    </ol>
-</ul>
+    </li>
+</ol>
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
