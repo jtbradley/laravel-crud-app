@@ -6,7 +6,7 @@
 
 <h2>Setup:</h2>
 <ol>
-    <li><h3>Clone Repo</h3>
+    <li><h3>Clone (or fork) repo</h3>
         <code>git clone https://github.com/jtbradley/laravel-crud-app.git</code>
     </li>
     <li><h3>Install Composer dependencies</h3>
