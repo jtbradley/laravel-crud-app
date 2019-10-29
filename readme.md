@@ -9,10 +9,10 @@
     <li><h3>Clone Repo</h3>
         <code>git clone https://github.com/jtbradley/laravel-crud-app.git</code>
     </li>
-    <li><h3>Install PHP dependencies</h3>
+    <li><h3>Install Composer dependencies</h3>
         <code>composer install</code>
     </li>
-    <li><h3>Install JS dependencies</h3>
+    <li><h3>Install NPM dependencies</h3>
         <code>npm install</code></li>
     <li><h3>Create .env file by copying .env.example</h3>
         <code>cp .env.example .env</code></li>
